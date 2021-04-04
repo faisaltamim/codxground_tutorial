@@ -1,0 +1,16 @@
+<?php
+namespace App\Http\Controllers;
+//use support file 
+use Illuminate\Support\Str;
+
+class RandomToken extends Controller
+{
+    public function randomToken(){
+
+    //Generate random key in laravel
+     $randomToken = Str::random(50);
+
+     //return $randomToken
+     return $randomToken;
+    }
+}
