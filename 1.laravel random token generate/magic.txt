@@ -1,0 +1,4 @@
+### Just Use Str It Header###
+use Illuminate\Support\Str;
+### then return the line below ###
+ return Str::random(50);
